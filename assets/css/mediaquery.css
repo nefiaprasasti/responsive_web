@@ -1,0 +1,89 @@
+@media screen and (max-width: 960px) {
+	#wrapper {
+		width: 95%;
+		margin: auto;
+	}
+
+	#daftar-artikel{
+		width:60%;
+		float:left;
+	}
+
+	#sidebar{
+		width:37%;
+		float:right;
+		margin-left: 3px;
+	}
+	
+}
+
+
+@media screen and (max-width: 700px) {
+	#header{
+		height : 80px;	
+	}
+		
+	#daftar-artikel{
+		width:100%;
+		float:inherit;
+	}
+
+	#sidebar{
+		width:100%;
+		float:inherit;
+	}
+
+
+	.form_contact {
+    display: grid;
+    grid-template-columns: 1fr ;
+	}
+
+	#myform {
+		display: grid;
+	    grid-template-columns: 1fr;
+	    grid-gap: 5px;
+	}
+
+	.full-width {
+	    grid-column: 1/1;   
+	}
+	#header form{
+		float:right;
+		margin-top:-75px;
+		margin-right: 10px;
+	}
+	
+}
+
+
+
+	
+
+@media screen and (max-width: 410px) {
+	#header{
+		height : 160px;	
+	}
+	#menu-utama li{
+		float:inherit;
+		padding:4px 20px;
+		border-bottom: 1px solid #1abf9f;
+	}
+
+/*	#menu-utama li a{
+		border-bottom: 1px solid #1abf9f;
+	} */
+
+	#header form{
+		float:right;
+		margin-top:-150px;
+		margin-right: 10px;
+	}
+
+	.artikel img{
+		float:inherit;
+		margin-right:10px;
+		width:100%;
+	}
+
+}
